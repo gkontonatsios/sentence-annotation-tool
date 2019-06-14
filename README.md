@@ -20,8 +20,7 @@ and multi-class (a sentence can be assigned to more than one feedback label).
 
 * **SQLite** annotations are stored into an SQLite db. The db consists of only one table with the following attributes:
 
-        | **Attribute** | **Data Type** |
-        | :---: | :---: |
+        | **Attribute** | **Data Type** | 
         | id | text |
         | comment_id | text |
         | department | text |
