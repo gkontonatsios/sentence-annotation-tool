@@ -7,17 +7,10 @@ In contrast to the sentiment label, the feedback label is both multi-label (10 d
 and multi-class (a sentence can be assigned to more than one feedback label).  
 
 # Requirements
-* Anaconda (Python 3.6)
-
-* pandas==0.23.0
-* scikit-learn==0.19.1
-* scipy==1.1.0
-* nltk==3.3
+* Anaconda (Python 3.6), pandas==0.23.0, scikit-learn==0.19.1, scipy==1.1.0, nltk==3.3
 
 
-* Run
-
-`pip install -r requirements.txt`
+* Install dependencies `pip install -r requirements.txt`
 
 
 
