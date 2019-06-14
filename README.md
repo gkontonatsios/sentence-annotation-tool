@@ -13,4 +13,10 @@ and multi-class (a sentence can be assigned to more than one feedback label).
 * Install dependencies `pip install -r requirements.txt`
 
 
+# Data format
 
+* **Input file** should be formated as a CSV file with a header line. You should place the CSV file under the data folder. The CSV file should include the following headers:
+`CSV_ID,DEPARTMENT,SURVEY_ID,AOS_TYPE,CODE,QUESTION_PROMPT,QUESTION_RESPONSE,QUESTION_RESPONDED`
+
+
+ 
