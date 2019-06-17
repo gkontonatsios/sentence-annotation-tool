@@ -12,5 +12,41 @@ and multi-class (a sentence can be assigned to more than one feedback label).
 
 * Install dependencies `pip install -r requirements.txt`
 
-# Data format
+
+# Data format 
+
+* **Input file:** should be formated as a CSV file with a header line. You should place the CSV file under the data folder. The CSV file should include the following headers:
+`CSV_ID,DEPARTMENT,SURVEY_ID,AOS_TYPE,CODE,QUESTION_PROMPT,QUESTION_RESPONSE,QUESTION_RESPONDED`
+
+* **SQLite:** annotations are stored in an SQLite db. The SQLite db file can be found under the data folder. The db consists of only one table with the following attributes:
+
+      
+    | Attribute        | Data type           | 
+    | ------------- |:-------------:| 
+    | id      | text | 
+    | comment_id      | text      |    
+    | department | text |
+    | survey_id | text |
+    | aos_typ | text |
+    | code | text |
+    | question | text |
+    | comment | text |
+    | sentence | text |
+    | comment_created | text |
+    | feedback_categories | text |
+    | sentiment_category | text |
+    | is_multi_label | Boolean |
+    | annotator_name | text |   
+    
+# Usage
+To run the sentence-annotation-tool, execute:
+
+`python run.py`
+ 
+This should start the GUI. Firstly, you will need to specify a username as show in the figure below. 
+The username is used to discriminate between annotations produced by different (human) annotators.
+![](figures/username.png)
+
+	
+
 
