@@ -38,5 +38,15 @@ and multi-class (a sentence can be assigned to more than one feedback label).
     | is_multi_label | Boolean |
     | annotator_name | text |   
     
+# Usage
+To run the sentence-annotation-tool, execute:
 
+`python run.py`
  
+This should start the GUI. Firstly, you will need to specify a username as show in the figure below. 
+The username is used to discriminate between annotations produced by different (human) annotators.
+![](figures/username.png =250x)
+
+	
+
+
