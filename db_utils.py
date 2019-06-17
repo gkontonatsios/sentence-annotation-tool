@@ -37,16 +37,16 @@ def create_db_table():
     except Error as e:
         print(e)
 
-def get_visited_comments():
+def get_visited_comments(username):
     db_connection = get_db_connection()
-    visited_comment_ids = []
+    visited_comment_ids = {}
     cur = db_connection.cursor()
-    cur.execute("SELECT * FROM annotations")
+    cur.execute("SELECT * FROM annotations where annotator_name='"+username+"'")
 
     rows = cur.fetchall()
 
     for row in rows:
-        visited_comment_ids.append(row[1])
+        visited_comment_ids[row[1]] = False
     return visited_comment_ids
 
 

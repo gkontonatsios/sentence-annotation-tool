@@ -152,24 +152,21 @@ class NSSAnnotatorApp:
 
     def show_comment(self):
 
+        visited_comment_ids = get_visited_comments(username=self.username)
+
+        # check whether all comments have been annotated
+        if len(visited_comment_ids) == len(self.comments):
+            # if true exit application
+            self.end_of_comments()
 
 
-        visited_comment_ids = get_visited_comments()
-
-        while self.comment_idx in visited_comment_ids:
+        while str(self.df.index.values[self.comment_idx]) in visited_comment_ids:
             self.comment_idx = self.comment_idx + 1
+
 
         self.current_comment = self.comments[self.comment_idx]
 
-    #     current_comment = '''This is a great
-    #     sentence
-    #     but
 
-
-    #     I howver.
-
-    #     '''
-    #     print(self.current_comment)
         try:
             self.current_comment = re.sub(r'\n+', '\n', self.current_comment).strip()
         except:
@@ -305,6 +302,11 @@ class NSSAnnotatorApp:
     def clear_tags(self):
         for tag in self.text.tag_names():
             self.text.tag_delete(tag)
+
+    def end_of_comments(self):
+        # self.window.destroy()
+        messagebox.showinfo("Information", "You have annotated "+str(len(self.comments))+"/"+str(len(self.comments))+" comments.\n Application will exit.")
+        exit()
 
 
     def reset_dropdown_menus(self):
