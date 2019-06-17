@@ -62,4 +62,6 @@ Finally, the annotation process will proceed to the next sentence of the comment
 
 <br />
 
-* **Multi-label annotations:** In order to assign more than one feedback categories to a single sentence, we can press the 'm' key in order to create a second feedback category drop-down list. 
+* **Multi-label annotations:** In order to assign more than one feedback categories to a single sentence, we can press the 'm' key in order to create a second feedback category drop-down list.
+ 
+<img align="center"  height="130" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/main_window_3.png"> 
