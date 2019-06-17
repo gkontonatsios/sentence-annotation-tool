@@ -45,8 +45,6 @@ To run the sentence-annotation-tool, execute:
  
 This should start the GUI. Firstly, you will need to specify a username as show in the figure below. 
 The username is used to discriminate between annotations produced by different (human) annotators.
-![](figures/username.png)
-
-	
-
-
+  
+<img align="center"  height="70" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/username.png">
+ 
