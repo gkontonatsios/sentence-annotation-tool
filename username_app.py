@@ -1,6 +1,5 @@
 from tkinter import *
-import ctypes
-import platform
+ 
 
 
 class UsernameApp:
@@ -27,11 +26,8 @@ class UsernameApp:
         height = self.window_ann_name.winfo_screenheight()  # height of screen
         
 
-        self.window_ann_name.geometry(str(int(width/2))+'x'+str(int(height/7)))
-
-        if platform.system() == 'Windows':
-            ctypes.windll.shcore.SetProcessDpiAwareness(1)
-
+        self.window_ann_name.geometry("450x100")
+ 
         self.window_ann_name.mainloop()
 
 
