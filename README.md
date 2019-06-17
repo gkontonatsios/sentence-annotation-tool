@@ -68,5 +68,5 @@ Finally, the annotation process will proceed to the next sentence of the comment
 
 * **Keyboard shortcuts:** Pressing the 'h' key will prompt a help window that shows the list of available keyboard shortcuts
 
-<img align="center"  height="220" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/help_window.png">
+<img align="center"  height="300" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/help_window.png">
  
