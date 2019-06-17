@@ -48,6 +48,6 @@ The username is used to discriminate between annotations produced by different (
   
 <img align="center"  height="70" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/username.png">
 
-After specifying a username, the main window should pop up: 
+After specifying a usernamea, the main window should pop up: 
 
 <img align="center"  height="90" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/main_window.png">
