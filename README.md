@@ -51,3 +51,9 @@ The username is used to discriminate between annotations produced by different (
 After specifying a username, the main window should pop up:  
 
 <img align="center"  height="150" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/main_window.png">
+
+The left-hand side panel of the main window shows a single open-ended comment that needs to be annotated sentence-by-sentence. The green bacgkround indicates the sentence that is currently being annotated. 
+The right-hand side panel of the main window contains two drop-down lists, namely the feedback and the sentiment category, which are used to assign an approriate feedback and sentiment category to the sentence. 
+After selecting a feedback and sentiment category we can press the 'Submit annotations' button in order to store the annotations into the DB. 
+Alternatively, we can hit the Enter key. 
+Finally, the annotation process will proceed to the next sentence of the comment.
