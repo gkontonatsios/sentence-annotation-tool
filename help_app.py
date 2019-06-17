@@ -87,7 +87,7 @@ class HelpApp:
 
 
         window_ann_name.title("Keyboard shortcuts")
-        # window_ann_name.geometry('200x200')
+        # window_ann_name.geometry('1000x300')
         window_ann_name.mainloop()
 
 if __name__ == '__main__':

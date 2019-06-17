@@ -1,4 +1,7 @@
 from tkinter import *
+import ctypes
+
+
 
 class UsernameApp:
 
@@ -19,7 +22,13 @@ class UsernameApp:
         submit_bt.grid(column=3, row=0)
 
         self.window_ann_name.bind('<Return>', self.return_bt_username_window)
-        self.window_ann_name.geometry('450x100')
+
+        width = self.window_ann_name.winfo_screenwidth()  # width of screen
+        height = self.window_ann_name.winfo_screenheight()  # height of screen
+        
+         
+        self.window_ann_name.geometry(str(int(width/2))+'x'+str(int(height/7)))
+        ctypes.windll.shcore.SetProcessDpiAwareness(1)
         self.window_ann_name.mainloop()
 
 
