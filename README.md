@@ -57,3 +57,9 @@ The right-hand side panel of the main window contains two drop-down lists, namel
 After selecting a feedback and sentiment category we can press the 'Submit annotations' button in order to store the annotations into the DB. 
 Alternatively, we can hit the Enter key. 
 Finally, the annotation process will proceed to the next sentence of the comment.
+
+<img align="center"  height="130" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/main_window_2.png">
+
+<br />
+
+* **Multi-label annotations:** In order to assign more than one feedback categories to a single sentence, we can press the 'm' key in order to create a second feedback category drop-down list. 
