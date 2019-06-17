@@ -50,3 +50,4 @@ The username is used to discriminate between annotations produced by different (
 
 After specifying a username, the main window should pop up: 
 
+<img align="center"  height="80" src="https://raw.githubusercontent.com/gkontonatsios/sentence-annotation-tool/master/figures/main_window.png">
